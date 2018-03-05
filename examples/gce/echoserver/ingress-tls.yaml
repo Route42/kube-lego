@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - echo.example.com
+    - echo.r42dns.com
     secretName: echoserver-tls
   rules:
-  - host: echo.example.com
+  - host: echo.r42dns.com
     http:
       paths:
       - path: /*
